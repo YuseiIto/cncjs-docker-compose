@@ -2,5 +2,6 @@ services:
   cncjs:
     image: cncjs/cncjs:latest
     privileged: true
+    restart: always
     ports:
       - "8000:8000"
