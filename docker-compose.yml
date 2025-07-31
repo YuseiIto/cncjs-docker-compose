@@ -1,0 +1,6 @@
+services:
+  cncjs:
+    image: cncjs/cncjs:latest
+    privileged: true
+    ports:
+      - "8000:8000"
